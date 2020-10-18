@@ -1,0 +1,125 @@
+<resources>
+    <string name="app_name">Best Status &amp; Shayari 2020</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <!--for hindi shayari-->
+    <string name="card1">2 Line Shayari</string>
+    <string name="card2">Attitude Shayari</string>
+    <string name="card3">Beauty Shayari</string>
+    <string name="card4">Bewafa Shayari</string>
+    <string name="card5">Birthday Shayari</string>
+    <string name="card6">Dard Shayari</string>
+    <string name="card7">Desh Bhakti Shayari</string>
+    <string name="card8">Dil Shayari</string>
+    <string name="card9">Dosti Shayari</string>
+    <string name="card10">Festival Shayari</string>
+    <string name="card11">Funny Shayari</string>
+    <string name="card12">Good Morning Shayari</string>
+    <string name="card13">Good Night Shayari</string>
+    <string name="card14">Heart Touching Shayari</string>
+    <string name="card15">Hindi Poems Poetry</string>
+    <string name="card16">Hindutva Shayari</string>
+    <string name="card17">Life Shayari</string>
+    <string name="card18">Love Shayari</string>
+    <string name="card19">Miss You Shayari</string>
+    <string name="card20">Motivational Shayari</string>
+    <string name="card21">Punjabi Shayari</string>
+    <string name="card22">Rain-Barish Shayari</string>
+    <string name="card23">Romantic Shayari</string>
+    <string name="card24">Sad Shayari</string>
+    <string name="card25">Sharabi Shayari</string>
+    <string name="card26">Sorry Shayari</string>
+    <string name="card27">True Shayari</string>
+    <string name="card28">Yaad Shayari</string>
+
+
+    <!--for english shayari-->
+    <string name="ecd1">Alone Status</string>
+    <string name="ecd2">Angry Status</string>
+    <string name="ecd3">Anniversary Status</string>
+    <string name="ecd4">Attitude Status</string>
+    <string name="ecd5">Army Status</string>
+    <string name="ecd6">Birthday Status</string>
+    <string name="ecd7">BreakUp Status</string>
+    <string name="ecd8">Brother Status</string>
+    <string name="ecd9">Busy Status</string>
+    <string name="ecd10">Comedy Status</string>
+    <string name="ecd11">Cool Status</string>
+    <string name="ecd12">Couple Status</string>
+    <string name="ecd13">Cry Status</string>
+    <string name="ecd14">DP Status</string>
+    <string name="ecd15">Diwali Status</string>
+    <string name="ecd16">Ego Status</string>
+    <string name="ecd17">Engagement Status</string>
+    <string name="ecd18">Emotional Status</string>
+    <string name="ecd19">Exam Status</string>
+    <string name="ecd20">Friendship Status</string>
+    <string name="ecd21">Facebook Status</string>
+    <string name="ecd22">Flirty Status</string>
+    <string name="ecd23">Family Status</string>
+    <string name="ecd24">Good Morning Status</string>
+    <string name="ecd25">Good Night Status</string>
+    <string name="ecd26">Gym Status</string>
+    <string name="ecd27">God Status</string>
+    <string name="ecd28">Girl Status</string>
+    <string name="ecd29">Happiness Status</string>
+    <string name="ecd30">Heart Break Status</string>
+    <string name="ecd31">Heart Touching Status</string>
+    <string name="ecd32">Hate Status</string>
+    <string name="ecd33">Inspirational Status</string>
+    <string name="ecd34">Jealous Status</string>
+    <string name="ecd35">Life Status</string>
+    <string name="ecd36">Love Status</string>
+    <string name="ecd37">Lonely Status</string>
+    <string name="ecd38">Marriage Status</string>
+    <string name="ecd39">Missing Status</string>
+    <string name="ecd40">Motivational Status</string>
+    <string name="ecd41">Nature Status</string>
+    <string name="ecd42">Personality Status</string>
+    <string name="ecd43">Problem Status</string>
+    <string name="ecd44">Party Status</string>
+    <string name="ecd45">Rain Status</string>
+    <string name="ecd46">Relationship Status</string>
+    <string name="ecd47">Romantic Status</string>
+    <string name="ecd48">Rude Status</string>
+    <string name="ecd49">Sarcastic Status</string>
+    <string name="ecd50">Sad Status</string>
+    <string name="ecd51">Single Status</string>
+    <string name="ecd52">Wedding Status</string>
+    <string name="ecd53">Whatsapp Status</string>
+    <string name="ecd54">Weekend Status</string>
+    <string name="ecd55">Yoga Status</string>
+
+
+    //jokes card name
+    <string name="jcd1">Hindi Jokes</string>
+    <string name="jcd2">Funny Jokes</string>
+    <string name="jcd3">Santa-Banta Jokes</string>
+    <string name="jcd4">Pati-Patni Jokes</string>
+    <string name="jcd5">Teacher-Students Jokes</string>
+    <string name="jcd6">Friends Jokes</string>
+    <string name="jcd7">Aunty Jokes</string>
+    <string name="jcd8">Aalia Jokes</string>
+    <string name="jcd9">Rajnikant Jokes</string>
+
+
+    <string name="instaTxt">
+        <a href="https://www.instagram.com/chauhan__dhiraj/">Message me on Instagram</a>
+    </string>
+
+    <string name="linkedinTxt">
+        <a href="https://www.linkedin.com/in/dhiraj-chauhan-717bb0179">Connect with me on Linkedin</a>
+    </string>
+
+
+    <string name="developerDesc"> Hi, my name is Dhiraj Chauhan and I am the man behind this app.
+
+if you have any suggestions or feedback feel free to message me. I will reply to everyone. :)
+
+Do drop me a Hi.. , it really means a lot to me.Looking forward to hear from you. </string>
+
+
+</resources>

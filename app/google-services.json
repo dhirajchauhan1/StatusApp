@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "769137843116",
+    "firebase_url": "https://best-shayari-and-status-2020.firebaseio.com",
+    "project_id": "best-shayari-and-status-2020",
+    "storage_bucket": "best-shayari-and-status-2020.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:769137843116:android:d3be7b9db65790e3937809",
+        "android_client_info": {
+          "package_name": "com.shayari_jokesallinone"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "769137843116-vjitdb2gjpgb5m665eukrr749j5rq2me.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDPhOg3riOI7VrGlk6eTOTKq0ClBuG8qws"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "769137843116-vjitdb2gjpgb5m665eukrr749j5rq2me.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

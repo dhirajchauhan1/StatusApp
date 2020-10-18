@@ -1,0 +1,1124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".HomeFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toTopOf="@+id/ad_view_container_hindi"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.gridlayout.widget.GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:alignmentMode="alignMargins"
+            app:columnCount="2"
+            app:rowCount="2"
+            app:columnOrderPreserved="false"
+            >
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/card1"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/card_height"
+                app:layout_rowWeight="1"
+                app:layout_columnWeight="1"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="5dp"
+                android:clickable="true"
+                android:foreground="?android:attr/selectableItemBackground"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="4dp"
+                >
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/love"
+                    android:gravity="bottom"
+                    android:orientation="vertical"
+                    >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/txtBg"
+                        android:textSize="@dimen/txt_size"
+                        android:gravity="bottom|center_horizontal"
+                        android:text="@string/card1"
+                        android:textColor="@color/colorShayariName"
+                        />
+
+
+                </LinearLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/card2"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/card_height"
+                app:layout_rowWeight="1"
+                app:layout_columnWeight="1"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:clickable="true"
+                android:foreground="?android:attr/selectableItemBackground"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="6dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/attitude"
+                    android:gravity="bottom"
+                    android:orientation="vertical"
+                    >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/txtBg"
+                        android:textSize="@dimen/txt_size"
+                        android:gravity="bottom|center_horizontal"
+                        android:text="@string/card2"
+                        android:textColor="@color/colorShayariName"
+                        />
+
+
+                </LinearLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/card3"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/card_height"
+                app:layout_rowWeight="1"
+                app:layout_columnWeight="1"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="5dp"
+                android:clickable="true"
+                android:foreground="?android:attr/selectableItemBackground"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="6dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/beauty"
+                    android:gravity="bottom"
+                    android:orientation="vertical"
+                    >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/txtBg"
+                        android:textSize="@dimen/txt_size"
+                        android:gravity="bottom|center_horizontal"
+                        android:text="@string/card3"
+                        android:textColor="@color/colorShayariName"
+                       />
+
+
+                </LinearLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/card4"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/card_height"
+                app:layout_rowWeight="1"
+                app:layout_columnWeight="1"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:clickable="true"
+                android:foreground="?android:attr/selectableItemBackground"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="6dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/bewfa"
+                    android:gravity="bottom"
+                    android:orientation="vertical"
+                   >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/txtBg"
+                        android:textSize="@dimen/txt_size"
+                        android:gravity="bottom|center_horizontal"
+                        android:text="@string/card4"
+                        android:textColor="@color/colorShayariName"
+                        />
+
+
+                </LinearLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/card5"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/card_height"
+                app:layout_rowWeight="1"
+                app:layout_columnWeight="1"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="5dp"
+                android:clickable="true"
+                android:foreground="?android:attr/selectableItemBackground"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="6dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/birthday"
+                    android:gravity="bottom"
+                    android:orientation="vertical"
+                    >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/txtBg"
+                        android:textSize="@dimen/txt_size"
+                        android:gravity="bottom|center_horizontal"
+                        android:text="@string/card5"
+                        android:textColor="@color/colorShayariName"
+                        />
+
+
+                </LinearLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/card6"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/card_height"
+                app:layout_rowWeight="1"
+                app:layout_columnWeight="1"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:clickable="true"
+                android:foreground="?android:attr/selectableItemBackground"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="6dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/alone"
+                    android:gravity="bottom"
+                    android:orientation="vertical"
+                    >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/txtBg"
+                        android:textSize="@dimen/txt_size"
+                        android:gravity="bottom|center_horizontal"
+                        android:text="@string/card6"
+                        android:textColor="@color/colorShayariName"
+                        />
+
+
+                </LinearLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/card7"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/card_height"
+                app:layout_rowWeight="1"
+                app:layout_columnWeight="1"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="5dp"
+                android:clickable="true"
+                android:foreground="?android:attr/selectableItemBackground"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="6dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/deshbhakti"
+                    android:gravity="bottom"
+                    android:orientation="vertical"
+                    >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/txtBg"
+                        android:textSize="@dimen/txt_size"
+                        android:gravity="bottom|center_horizontal"
+                        android:text="@string/card7"
+                        android:textColor="@color/colorShayariName"
+                         />
+
+
+                </LinearLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/card8"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/card_height"
+                app:layout_rowWeight="1"
+                app:layout_columnWeight="1"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:clickable="true"
+                android:foreground="?android:attr/selectableItemBackground"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="6dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/dil"
+                    android:gravity="bottom"
+                    android:orientation="vertical"
+                    >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/txtBg"
+                        android:textSize="@dimen/txt_size"
+                        android:gravity="bottom|center_horizontal"
+                        android:text="@string/card8"
+                        android:textColor="@color/colorShayariName"
+                        />
+
+
+                </LinearLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/card9"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/card_height"
+                app:layout_rowWeight="1"
+                app:layout_columnWeight="1"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="5dp"
+                android:clickable="true"
+                android:foreground="?android:attr/selectableItemBackground"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="6dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/friendship"
+                    android:gravity="bottom"
+                    android:orientation="vertical"
+                   >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/txtBg"
+                        android:textSize="@dimen/txt_size"
+                        android:gravity="bottom|center_horizontal"
+                        android:text="@string/card9"
+                        android:textColor="@color/colorShayariName"
+                         />
+
+
+                </LinearLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/card10"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/card_height"
+                app:layout_rowWeight="1"
+                app:layout_columnWeight="1"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:clickable="true"
+                android:foreground="?android:attr/selectableItemBackground"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="6dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/diwali"
+                    android:gravity="bottom"
+                    android:orientation="vertical"
+                   >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/txtBg"
+                        android:textSize="@dimen/txt_size"
+                        android:gravity="bottom|center_horizontal"
+                        android:text="@string/card10"
+                        android:textColor="@color/colorShayariName"
+                        />
+
+
+                </LinearLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/card11"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/card_height"
+                app:layout_rowWeight="1"
+                app:layout_columnWeight="1"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="5dp"
+                android:clickable="true"
+                android:foreground="?android:attr/selectableItemBackground"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="6dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/funny"
+                    android:gravity="bottom"
+                    android:orientation="vertical"
+                    >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/txtBg"
+                        android:textSize="@dimen/txt_size"
+                        android:gravity="bottom|center_horizontal"
+                        android:text="@string/card11"
+                        android:textColor="@color/colorShayariName"
+                       />
+
+
+                </LinearLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/card12"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/card_height"
+                app:layout_rowWeight="1"
+                app:layout_columnWeight="1"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:clickable="true"
+                android:foreground="?android:attr/selectableItemBackground"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="6dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/morning"
+                    android:gravity="bottom"
+                    android:orientation="vertical"
+                    >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/txtBg"
+                        android:textSize="@dimen/txt_size"
+                        android:gravity="bottom|center_horizontal"
+                        android:text="@string/card12"
+                        android:textColor="@color/colorShayariName"
+                         />
+
+
+                </LinearLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/card13"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/card_height"
+                app:layout_rowWeight="1"
+                app:layout_columnWeight="1"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="5dp"
+                android:clickable="true"
+                android:foreground="?android:attr/selectableItemBackground"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="6dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/night"
+                    android:gravity="bottom"
+                    android:orientation="vertical"
+                    >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/txtBg"
+                        android:textSize="@dimen/txt_size"
+                        android:gravity="bottom|center_horizontal"
+                        android:text="@string/card13"
+                        android:textColor="@color/colorShayariName"
+                         />
+
+
+                </LinearLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/card14"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/card_height"
+                app:layout_rowWeight="1"
+                app:layout_columnWeight="1"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:clickable="true"
+                android:foreground="?android:attr/selectableItemBackground"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="6dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/heattouch"
+                    android:gravity="bottom"
+                    android:orientation="vertical"
+                    >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/txtBg"
+                        android:textSize="@dimen/txt_size"
+                        android:gravity="bottom|center_horizontal"
+                        android:text="@string/card14"
+                        android:textColor="@color/colorShayariName"
+                        />
+
+
+                </LinearLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/card15"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/card_height"
+                app:layout_rowWeight="1"
+                app:layout_columnWeight="1"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="5dp"
+                android:clickable="true"
+                android:foreground="?android:attr/selectableItemBackground"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="6dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/hindi"
+                    android:gravity="bottom"
+                    android:orientation="vertical"
+                   >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/txtBg"
+                        android:textSize="@dimen/txt_size"
+                        android:gravity="bottom|center_horizontal"
+                        android:text="@string/card15"
+                        android:textColor="@color/colorShayariName"
+                        />
+
+
+                </LinearLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/card16"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/card_height"
+                app:layout_rowWeight="1"
+                app:layout_columnWeight="1"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:clickable="true"
+                android:foreground="?android:attr/selectableItemBackground"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="6dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/hindu"
+                    android:gravity="bottom"
+                    android:orientation="vertical"
+                    >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/txtBg"
+                        android:textSize="@dimen/txt_size"
+                        android:gravity="bottom|center_horizontal"
+                        android:text="@string/card16"
+                        android:textColor="@color/colorShayariName"
+                         />
+
+
+                </LinearLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/card17"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/card_height"
+                app:layout_rowWeight="1"
+                app:layout_columnWeight="1"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="5dp"
+                android:clickable="true"
+                android:foreground="?android:attr/selectableItemBackground"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="6dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/life"
+                    android:gravity="bottom"
+                    android:orientation="vertical"
+                    >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/txtBg"
+                        android:textSize="@dimen/txt_size"
+                        android:gravity="bottom|center_horizontal"
+                        android:text="@string/card17"
+                        android:textColor="@color/colorShayariName"
+                        />
+
+
+                </LinearLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/card18"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/card_height"
+                app:layout_rowWeight="1"
+                app:layout_columnWeight="1"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:clickable="true"
+                android:foreground="?android:attr/selectableItemBackground"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="6dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/love"
+                    android:gravity="bottom"
+                    android:orientation="vertical"
+                    >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/txtBg"
+                        android:textSize="@dimen/txt_size"
+                        android:gravity="bottom|center_horizontal"
+                        android:text="@string/card18"
+                        android:textColor="@color/colorShayariName"
+                        />
+
+
+                </LinearLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/card19"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/card_height"
+                app:layout_rowWeight="1"
+                app:layout_columnWeight="1"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="5dp"
+                android:clickable="true"
+                android:foreground="?android:attr/selectableItemBackground"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="6dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/missing"
+                    android:gravity="bottom"
+                    android:orientation="vertical"
+                   >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/txtBg"
+                        android:textSize="@dimen/txt_size"
+                        android:gravity="bottom|center_horizontal"
+                        android:text="@string/card19"
+                        android:textColor="@color/colorShayariName"
+                        />
+
+
+                </LinearLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/card20"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/card_height"
+                app:layout_rowWeight="1"
+                app:layout_columnWeight="1"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:clickable="true"
+                android:foreground="?android:attr/selectableItemBackground"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="6dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/motivation"
+                    android:gravity="bottom"
+                    android:orientation="vertical"
+                    >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/txtBg"
+                        android:textSize="@dimen/txt_size"
+                        android:gravity="bottom|center_horizontal"
+                        android:text="@string/card20"
+                        android:textColor="@color/colorShayariName"
+                         />
+
+
+                </LinearLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/card21"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/card_height"
+                app:layout_rowWeight="1"
+                app:layout_columnWeight="1"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="5dp"
+                android:clickable="true"
+                android:foreground="?android:attr/selectableItemBackground"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="6dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/punjabi"
+                    android:gravity="bottom"
+                    android:orientation="vertical"
+                    >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/txtBg"
+                        android:textSize="@dimen/txt_size"
+                        android:gravity="bottom|center_horizontal"
+                        android:text="@string/card21"
+                        android:textColor="@color/colorShayariName"
+                        />
+
+
+                </LinearLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/card22"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/card_height"
+                app:layout_rowWeight="1"
+                app:layout_columnWeight="1"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:clickable="true"
+                android:foreground="?android:attr/selectableItemBackground"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="6dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/rain"
+                    android:gravity="bottom"
+                    android:orientation="vertical"
+                    >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/txtBg"
+                        android:textSize="@dimen/txt_size"
+                        android:gravity="bottom|center_horizontal"
+                        android:text="@string/card22"
+                        android:textColor="@color/colorShayariName"
+                         />
+
+
+                </LinearLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/card23"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/card_height"
+                app:layout_rowWeight="1"
+                app:layout_columnWeight="1"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="5dp"
+                android:clickable="true"
+                android:foreground="?android:attr/selectableItemBackground"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="6dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/romantic"
+                    android:gravity="bottom"
+                    android:orientation="vertical"
+                    >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/txtBg"
+                        android:textSize="@dimen/txt_size"
+                        android:gravity="bottom|center_horizontal"
+                        android:text="@string/card23"
+                        android:textColor="@color/colorShayariName"
+                         />
+
+
+                </LinearLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/card24"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/card_height"
+                app:layout_rowWeight="1"
+                app:layout_columnWeight="1"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:clickable="true"
+                android:foreground="?android:attr/selectableItemBackground"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="6dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/sad"
+                    android:gravity="bottom"
+                    android:orientation="vertical"
+                    >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/txtBg"
+                        android:textSize="@dimen/txt_size"
+                        android:gravity="bottom|center_horizontal"
+                        android:text="@string/card24"
+                        android:textColor="@color/colorShayariName"
+                        />
+
+
+                </LinearLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/card25"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/card_height"
+                app:layout_rowWeight="1"
+                app:layout_columnWeight="1"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="5dp"
+                android:clickable="true"
+                android:foreground="?android:attr/selectableItemBackground"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="6dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/sharabi"
+                    android:gravity="bottom"
+                    android:orientation="vertical"
+                    >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/txtBg"
+                        android:textSize="@dimen/txt_size"
+                        android:gravity="bottom|center_horizontal"
+                        android:text="@string/card25"
+                        android:textColor="@color/colorShayariName"
+                        />
+
+
+                </LinearLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/card26"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/card_height"
+                app:layout_rowWeight="1"
+                app:layout_columnWeight="1"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:clickable="true"
+                android:foreground="?android:attr/selectableItemBackground"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="6dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/sorry"
+                    android:gravity="bottom"
+                    android:orientation="vertical"
+                    >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/txtBg"
+                        android:textSize="@dimen/txt_size"
+                        android:gravity="bottom|center_horizontal"
+                        android:text="@string/card26"
+                        android:textColor="@color/colorShayariName"
+                        />
+
+
+                </LinearLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/card27"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/card_height"
+                app:layout_rowWeight="1"
+                app:layout_columnWeight="1"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginBottom="10dp"
+                android:clickable="true"
+                android:foreground="?android:attr/selectableItemBackground"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="6dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/trues"
+                    android:gravity="bottom"
+                    android:orientation="vertical"
+                   >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/txtBg"
+                        android:textSize="@dimen/txt_size"
+                        android:gravity="bottom|center_horizontal"
+                        android:text="@string/card27"
+                        android:textColor="@color/colorShayariName"
+                         />
+
+
+                </LinearLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/card28"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/card_height"
+                app:layout_rowWeight="1"
+                app:layout_columnWeight="1"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+                android:clickable="true"
+                android:foreground="?android:attr/selectableItemBackground"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="6dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/yaad"
+                    android:gravity="bottom"
+                    android:orientation="vertical"
+                    >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/txtBg"
+                        android:textSize="@dimen/txt_size"
+                        android:gravity="bottom|center_horizontal"
+                        android:text="@string/card28"
+                        android:textColor="@color/colorShayariName"
+                         />
+
+
+                </LinearLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+
+        </androidx.gridlayout.widget.GridLayout>
+
+    </ScrollView>
+
+   <!-- <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView_hindi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        ads:adSize="N/A"
+        ads:adUnitId="ca-app-pub-3940256099942544/6300978111">
+    </com.google.android.gms.ads.AdView>-->
+
+   <!-- Set the adaptive ad-->
+    <FrameLayout
+        android:id="@+id/ad_view_container_hindi"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

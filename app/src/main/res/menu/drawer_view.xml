@@ -1,0 +1,57 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_hindi_fragment"
+            android:icon="@drawable/ic_icon_home"
+            android:title="Hindi Shayari" />
+        <item
+            android:id="@+id/nav_english_fragment"
+            android:icon="@drawable/folder_icon"
+            android:title="English Status" />
+        <item
+            android:id="@+id/nav_horror_video"
+            android:icon="@drawable/ic_icon_video"
+            android:title="Horror Story Video " />
+
+    </group>
+
+    <item android:title="About "
+        >
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:icon="@drawable/ic_icon_person"
+                    android:title="Developer"
+                    android:id="@+id/nav_Developer_fragment"
+                    />
+                <item
+                    android:icon="@drawable/ic_icon_star"
+                    android:id="@+id/nav_Rate"
+                    android:title="Rate this App " />
+
+                <item
+                    android:icon="@drawable/share_icon"
+                    android:id="@+id/nav_share"
+                    android:title="Share "
+                    app:showAsAction="never"
+                    />
+
+                <item
+                    android:icon="@drawable/icon_privacy"
+                    android:id="@+id/nav_PrivacyPolicy"
+                    android:title="Privacy Policy " />
+
+                <item
+                    android:icon="@drawable/ic_icon_more"
+                    android:id="@+id/nav_more_app"
+                    android:title="More App "
+                    app:showAsAction="never"
+                    />
+
+            </group>
+        </menu>
+    </item>
+
+</menu>
